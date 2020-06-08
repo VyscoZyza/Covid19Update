@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="com.vyzyz.covidupdate.activity.InfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        style="@style/AppTheme.styleMarginAll">
+        <Button
+            android:id="@+id/BtnNews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:drawableTop="@drawable/ic_covidnews"
+            android:text="@string/news"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/BtnHoax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:drawableTop="@drawable/ic_prevention"
+            android:text="@string/hoax"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/BtnPeta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:drawableTop="@drawable/ic_map"
+            android:text="@string/maps"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/BtnEdukasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:drawableTop="@drawable/ic_education"
+            android:text="@string/education"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/BtnQnA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:drawableTop="@drawable/ic_qna"
+            android:text="@string/QnA"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/BtnKontak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:drawableTop="@drawable/ic_info"
+            android:text="@string/contact"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>
