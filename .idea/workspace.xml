@@ -33,6 +33,12 @@
       </list>
     </option>
   </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="D:\keystore.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
   <component name="ProjectId" id="1d2W8uJ3m0X24p9CFYcjbSLeiz3" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,9 +46,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="app" />
+    <property name="ExportApk.ApkPath" value="E:\FD\CovidUpdate\Covid19Update\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="D:/Android" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/menu" />
+    <property name="last_opened_file_path" value="D:/keystore.jks" />
     <property name="settings.editor.selected.configurable" value="ide.date.format" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -143,5 +154,9 @@
       <screen x="0" y="31" width="1739" height="947" />
     </state>
     <state x="450" y="260" key="AndroidCreateResourceFileDialog/0.31.1739.947/0.-1049.1739.947@0.31.1739.947" timestamp="1591625587242" />
+    <state x="650" y="260" key="FileChooserDialogImpl" timestamp="1591626925802">
+      <screen x="0" y="31" width="1739" height="947" />
+    </state>
+    <state x="650" y="260" key="FileChooserDialogImpl/0.31.1739.947/0.-1049.1739.947@0.31.1739.947" timestamp="1591626925802" />
   </component>
 </project>

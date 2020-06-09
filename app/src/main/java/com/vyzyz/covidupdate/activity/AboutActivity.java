@@ -48,7 +48,7 @@ public class AboutActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View v) {
         if (v.getId() == R.id.githubBtn) {
-            String url = "https://www.github.com/whoishusni";
+            String url = "https://github.com/VyscoZyza/Covid19Update";
             Uri parseUrl = Uri.parse(url);
             Intent intent = new Intent(Intent.ACTION_VIEW, parseUrl);
             startActivity(intent);
